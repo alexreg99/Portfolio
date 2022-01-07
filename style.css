@@ -1,0 +1,57 @@
+ body {
+    background-color: red;
+
+}
+a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 24px;
+}
+a:hover {
+    color: navy;
+}
+header {
+    display: flex;
+    /* justify-content: space-around;  */
+    
+}
+h1 {
+    margin-left: 5%;
+    text-align: left;
+}
+#title {
+    /* flex-shrink: 2; */
+    /* flex-basis: 20%; */
+    flex-grow: 1;
+    
+}
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-grow: 4;
+    justify-content: space-around;  
+    align-items: center;
+}
+.sections {
+    display: flex;
+    
+}
+#about {
+    flex-grow: 1;
+    font-size: 36px;
+    border-right-style: solid;
+    border-width: 5px;
+}
+.descriptions {
+    display: flex;
+    flex-grow: 4;
+    margin-left: 5%;
+
+}
+#profile {
+    /* display: inline-block; */
+}
+.text-description {
+    padding: 70px 0;
+    margin: 5%;
+}
